@@ -1,0 +1,518 @@
+/******************
+global css start
+******************/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+.title-h{
+    color: #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.title-b{
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+}
+.title-f{
+    color: #999999;
+    font-size: 18px;
+}
+/******************
+global css end
+******************/
+.header-section{
+    background: url(../img/banner-a.png) center bottom no-repeat;
+    background-size: cover;
+    padding: 15px 0px;
+}
+.header-section .logo-a{
+    margin-right: 10px;
+}
+.header-section .nav-link{
+    color: #fffefe !important;
+}
+.header-section .nav-link:hover{
+    background: url(../img/line.png) center bottom;
+    background-repeat: no-repeat;
+}
+.header-section .content{
+    padding: 130px 0px 0px;
+
+}
+
+.header-section .content h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 36px 0px 40px;
+    padding-right: 20px;
+}
+.header-section .content p{
+    padding-right: 150px;
+}
+.header-section .content .join-btn{
+    margin-top: 64px;
+    margin-bottom: 130px;
+}
+.header-section .content .join-btn .btn-primary{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    margin-right: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 4px;
+    transition: .5s;
+}
+.header-section .content .join-btn .btn-primary:hover {
+    background: transparent;
+    border: 1px solid #4c4c51;
+    transition: .5s;
+}
+
+.header-section .content .join-btn .btn-info{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #4c4c51;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 4px;
+    transition: .5s;
+}
+.header-section .content .join-btn .btn-info:hover{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: .5s;
+}
+/* header css end */
+
+
+/* overvier css start */
+.overvier-section{
+    padding: 66px 0px 80px;
+    border-bottom: 2px solid #ededed;
+}
+.overvier-section .title{
+    text-align: center;
+}
+
+.overvier-section .title h3{
+    margin: 20px 0px 39px;
+}
+.overvier-section .box-inner{
+    text-align: center;
+    margin-top: 70px;
+}
+.overvier-section .box-inner h2{
+    font-size: 36px;
+    margin: 40px 0px 20px;
+}
+.overvier-section .box-inner p{
+    padding: 0px 30px;
+}
+/* overvier css end */
+
+
+/* device css start */
+.device-section{
+    width: 100%;
+    padding: 66px 0px 0px;
+}
+.device-section .d-img{
+    text-align: center;
+}
+
+.device-section .title h2{
+    margin: 22px 0px 30px;
+}
+.device-section .title p{
+    margin: 30px 0px 38px;
+}
+.device-section .icon-box{}
+.device-section .icon-box ul{}
+.device-section .icon-box li{
+    color: #1a1a1a;
+    font-size: 18px;
+    padding-bottom: 22px;
+}
+.device-section .icon-box li .a, .d{
+    padding-right: 10px;
+}
+.device-section .icon-box li .b, .c{
+    padding-right: 15px;
+}
+/* device css end */
+
+
+/* customize css start */
+.customize-secton{
+    background: #f2f2f2;
+}
+.customize-secton .title{
+    padding-top: 132px;
+    padding-right: 46px;
+}
+.customize-secton .title span{}
+.customize-secton .title h2{
+    margin: 24px 0px 36px;
+}
+.customize-secton .title p{
+    margin-top: 30px;
+}
+.customize-secton .phone2{
+    margin-top: 100px;
+}
+.customize-secton .img{
+    margin-left: -47px;
+}
+/* customize css end */
+
+
+/* review css start */
+.review-section{
+    width: 100%;
+    background: url(../img/plans.png) center center no-repeat;
+    background-size: cover;
+    padding: 0px 0px 10px;
+}
+.review-section .title{
+    text-align: center;
+    padding: 62px;
+}
+.review-section .title h2{
+    color: #fff;
+    padding: 20px 0px 30px;
+    margin: 0;
+}
+
+.review-section .plan-inner{
+    color: #fff;
+    padding-top: 60px;
+}
+.review-section .plan-inner h5{
+    font-size: 24px;
+    padding-right: 62px;
+    font-style: italic;
+    line-height: 34px;
+}
+.review-section .plan-inner .content{
+    display: flex;
+    align-items: center;
+    padding-top: 28px;
+}
+.review-section .plan-inner .post{
+    padding-left: 20px;
+
+}
+.review-section .plan-inner p{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.review-section .plan-inner h6{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+}
+.review-section .drop{
+    padding: 100px 0px 50px;
+    text-align: center;
+}
+.review-section .drop ul{}
+.review-section .drop ul li{
+    display: inline-block;
+    background: transparent;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    margin: 0px 3px 0px 3px;
+    transition: .5s;
+}
+.review-section .drop ul li:hover{
+    background: #e0e0e0;
+    transform: scale(1.4);
+    transition: .5s;
+}
+/* review css end */
+
+/* Like what you see section start */
+.like-section{
+    padding: 50px 0px 40px;
+    background:#15141a ;
+}
+.like-section h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.like-section h2 span{
+    font-weight: 300;
+}
+.like-section .jpin-btn{
+    text-align: end;
+}
+.like-section .join-btn .btn-primary{
+    background: transparent;
+    border: 1px solid #4c4c51;
+    margin-right: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+.like-section .join-btn .btn-primary:hover{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: .5s;
+}
+.like-section .join-btn .btn-info:hover{
+    background: transparent;
+    border: 1px solid #4c4c51;
+    transition: .5s;
+}
+.like-section .join-btn .btn-info{
+    background: #008ed6;
+    color: #fff;
+    border: 1px solid #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 4px;
+    transition: .5s;
+}
+/* Like what you see section end */
+
+
+/* Pricings & Plans css start */
+.pricing-section{
+    width: 100%;
+    padding: 60px 0px;
+}
+.pricing-section .title{
+    text-align: center;
+}
+.pricing-section .title .title-b{
+    padding: 20px 0px 26px;
+}
+.pricing-section .price-box{
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    margin-top: 70px;
+}
+.pricing-section .price-box .p-header{
+    transition: .5s;
+}
+.pricing-section .price-box .p-header h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #15141a;
+    margin: 0px;
+    padding: 26px 0px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: .5s;
+}
+.pricing-section .price-box .p-body{
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+    transition: .5s;
+    
+}
+.pricing-section .price-box .p-body h2{
+    font-size: 70px;
+    font-weight: 700;
+    padding: 30px 0px 0px;
+    transition: .5s;
+    margin: 0;
+}
+.pricing-section .price-box .p-body h2 .free{ 
+    font-size: 30px;
+    position: absolute;
+    top: 42px;
+    left: 118px;
+    font-weight: 600;
+}
+.pricing-section .price-box .p-body h2 span{
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    font-weight: 600;
+}
+.pricing-section .price-box .p-body p{
+    font-size: 18px;
+    font-style: italic;
+    margin: -10px 0px 30px;
+    color: #999999;
+}
+.pricing-section .price-box .p-footer{}
+.pricing-section .price-box .p-footer p{
+    color: #999999;
+    padding: 48px 48px 36px;
+    font-size: 18px;
+    transition: .5s;
+}
+.pricing-section .price-box .p-footer p a{
+    color: #008ed6;
+}
+.pricing-section .price-box .p-footer .btn-primary{
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 30px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    transition: .5s;
+
+}
+.pricing-section .price-box:hover .p-header h3{
+    color: #008ed6;
+    transition: .5s;
+}
+.pricing-section .price-box:hover .p-body{
+    background: #008ed6;
+    transition: .5s;
+}
+.pricing-section .price-box:hover .p-body h2{
+    color: #fff;
+    transition: .5s;
+}
+.pricing-section .price-box:hover .p-body p{
+    color: #fff;
+    transition: .5s;
+}
+.pricing-section .price-box:hover .p-footer .btn-primary{
+    color: #fff;
+    background: #008ed6;
+    transition: .5s;
+}
+/* Pricings & Plans css end */
+
+/* Contact us css start */
+.contect-section{
+    background: #e0e0e0;
+    
+}
+.contect-section .container{
+    position: relative;
+}
+.contect-section .title{
+    text-align: center;
+    padding: 60px 0px;
+}
+.contect-section .title h2{
+    padding: 20px 0px 34px;
+}
+.contect-section .icon-box{
+    text-align: center;
+    padding-bottom: 470px;
+}
+.contect-section .icon-box img{
+    margin-bottom: 40px;
+}
+.contect-section .icon-box p{
+    color: #999999;
+    margin: 0px;
+}
+.contect-section .icon-box .address{
+    padding: 0px 142px;
+}
+.contect-section .bg{
+    background: #15141a;
+    width: 960px;
+    padding: 100px 2px 50px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: -102px;
+    left: 190px;
+}
+.contect-section .bg .form{
+    width: 784px;
+    margin: auto;
+    text-align: end;
+}
+.contect-section .form .form-a{
+    display: inline-table;
+}
+.contect-section .form .form-a input{
+    display: block;
+    padding: 14px 180px 14px 12px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.contect-section .form .form-a .message{
+    padding: 14px 180px 146px 20px;
+    margin: 0px;
+}
+.contect-section .form .btn-primary{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    margin-top: 12px;
+}
+.contect-section .map{
+    background: url(../img/map-a.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+}
+.footer{
+    text-align: center;
+    background: #15141a;
+    padding: 20px 0px;
+}
+.footer .icon{}
+.footer .icon ul{}
+.footer .icon ul li{
+    display: inline-block;
+    font-size: 27px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer .icon ul li i{
+    color: #444348;
+    transition: .5s;
+}
+.footer .icon ul li i:hover{
+    color: #008ed6;
+    transition: .5s;
+}
+.footer  p{
+    font-size: 14px;
+    color: #444348;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin: 0;
+}
+/* Contact us css end */
