@@ -81,10 +81,10 @@ global css end
 .header-section .nav-link:hover .line::after{
     width: 3%;
 }
-/* .header-section .nav-link:hover{
+.header-section .nav-link:hover{
     background: url(../img/line.png) center bottom;
     background-repeat: no-repeat;
-} */
+} 
 .header-section .content{
     padding: 130px 0px 0px;
 
