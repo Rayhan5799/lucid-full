@@ -73,8 +73,9 @@ global css end
     margin-bottom: 130px;
 }
 .header-section .content .join-btn .btn-primary{
-    background: #008ed6;
-    border: 1px solid #008ed6;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #4c4c51;
     margin-right: 16px;
     font-size: 14px;
     text-transform: uppercase;
@@ -83,8 +84,8 @@ global css end
     transition: .5s;
 }
 .header-section .content .join-btn .btn-primary:hover {
-    background: transparent;
-    border: 1px solid #4c4c51;
+    background: #008ed6;
+    border: 1px solid #008ed6;
     transition: .5s;
 }
 
@@ -102,7 +103,6 @@ global css end
     background: #008ed6;
     border: 1px solid #008ed6;
     transition: .5s;
-}
 /* header css end */
 
 
@@ -289,20 +289,20 @@ global css end
     transition: .5s;
 }
 .like-section .join-btn .btn-info:hover{
-    background: transparent;
-    border: 1px solid #4c4c51;
+    background: #008ed6;
+    border: 1px solid #008ed6;
     transition: .5s;
 }
 .like-section .join-btn .btn-info{
-    background: #008ed6;
+    background: transparent;
     color: #fff;
-    border: 1px solid #008ed6;
+    border: 1px solid #4c4c51;
+    margin-right: 16px;
     font-size: 14px;
     text-transform: uppercase;
     padding: 12px 30px;
     border-radius: 4px;
     transition: .5s;
-}
 /* Like what you see section end */
 
 
