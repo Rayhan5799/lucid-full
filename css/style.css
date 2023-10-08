@@ -264,7 +264,7 @@ global css end
     background: #008ED6;
     left: 0%;
     height: 3px;
-    width: 1%;
+    width: 0%;
     transition: all 0.3s ease-in-out;
 } 
 .customize-secton .title .line::after{
