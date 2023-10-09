@@ -472,20 +472,27 @@ global css end
     transition: all 0.3s ease-in-out;
 } */
 .contect-section .from-box form input{
-    padding: 10px 120px 10px 10px;
+    padding: 10px 0px 10px 10px;
     margin-bottom: 14px;
     background: transparent;
     border: 1px solid #444348;
     box-shadow: none;
     color: #fff;
     text-transform: capitalize;
+    width: 100%;
 
 }
 .contect-section .from-box form input:focus{
     outline: none;
 }
 .contect-section .from-box form .msg{
-    padding: 10px 120px 130px 10px;
+    padding: 10px 0px 110px 10px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+    border: 1px solid #444348;
+    width: 100%;
 }
 .contect-section .from-box form .btn-primary{
     text-align: center !important;
