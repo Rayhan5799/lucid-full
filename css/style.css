@@ -35,32 +35,7 @@ li{
     color: #999999;
     font-size: 18px;
 }
-.line{
-    margin: 2% auto;
-}
- .line{
-    position: relative;
-    display: block;
-    margin: 2% auto 8%;
-}
-.line::before{
-    content: "";
-    position: absolute; 
-    background: #008ED6;
-    left: 46.8%;
-    height: 3px;
-    width: 0%;
-    transition: all 0.3s ease-in-out;
-} 
-.line::after{
-    content: "";
-    position: absolute; 
-    background: #008ED6;
-    right: 46.8%;
-    height: 3px;
-    width: 0%;
-    transition: all 0.3s ease-in-out;
-}
+
 /******************
 global css end
 ******************/
@@ -76,15 +51,10 @@ global css end
     color: #fffefe !important;
 }
 
-
-.header-section .nav-link:hover .line::before,
-.header-section .nav-link:hover .line::after{
-    width: 3%;
-}
-.header-section .nav-link:hover{
+/* .header-section .nav-link:hover{
     background: url(../img/line.png) center bottom;
     background-repeat: no-repeat;
-} 
+} */
 .header-section .content{
     padding: 130px 0px 0px;
 
@@ -150,20 +120,10 @@ global css end
 .overvier-section .title h3{
     margin: 20px 0px 39px;
 }
-.overvier-section:hover .line::before,
-.overvier-section:hover .line::after{
-    width: 3%;
-}
+
 .overvier-section .box-inner{
     text-align: center;
     margin-top: 70px;
-}
-.overvier-section .box-inner img{
-    transition: all 0.8s ease-in-out;
-   
-}
-.overvier-section .box-inner img:hover{
-    transform: rotate(360deg); 
 }
 .overvier-section .box-inner h2{
     font-size: 36px;
@@ -184,47 +144,7 @@ global css end
     text-align: center;
     
 }
-.device-section .d-img img{
-    transition: all 0.3s ease-in-out;
-    
-}
-.device-section .d-img img:hover{
-    transform:scale( 1.1) ;
-}
 
-.device-section .title h2{
-    margin: 22px 0px 30px;
-}
-.device-section .title .line{
-    margin: 2% auto;
-}
-.device-section .title .line{
-    position: relative;
-    display: block;
-    margin: 2% auto 8%;
-}
-.device-section .title .line::before{
-    content: "";
-    position: absolute; 
-    background: #008ED6;
-    left: 0%;
-    height: 3px;
-    width: 0%;
-    transition: all 0.3s ease-in-out;
-} 
-.device-section .title .line::after{
-    content: "";
-    position: absolute; 
-    background: #008ED6;
-    right: 89%;
-    height: 3px;
-    width: 0%;
-    transition: all 0.3s ease-in-out;
-}
-.device-section :hover .line::before,
-.device-section :hover .line::after{
-    width: 5%;
-}
 .device-section .title p{
     margin: 80px 0px 38px;
 }
@@ -258,28 +178,7 @@ global css end
     display: block;
     margin: 2% auto 8%;
 }
-.customize-secton .title .line::before{
-    content: "";
-    position: absolute; 
-    background: #008ED6;
-    left: 0%;
-    height: 3px;
-    width: 0%;
-    transition: all 0.3s ease-in-out;
-} 
-.customize-secton .title .line::after{
-    content: "";
-    position: absolute; 
-    background: #008ED6;
-    right: 87%;
-    height: 3px;
-    width: 0%;
-    transition: all 0.3s ease-in-out;
-}
-.customize-secton :hover .line::before,
-.customize-secton :hover .line::after{
-    width: 6%;
-}
+
 .customize-secton .title h2{
     margin: 20px 0px 30px;
 }
@@ -293,13 +192,7 @@ global css end
     /* margin-left: -47px; */
     transition: all 0.3s ease-in-out;
 }
-.customize-secton .phone2 img{
-    width: 100%;
-    transition: all 0.3s ease-in-out;
-}
-.customize-secton .phone2 img:hover{
-    transform: scale(1.1);
-}
+
 /* customize css end */
 
 
@@ -318,11 +211,6 @@ global css end
     color: #fff;
     padding: 20px 0px 30px;
     margin: 0;
-}
-
-.review-section:hover .line::before,
-.review-section:hover .line::after{
-    width: 3%;
 }
 .review-section .plan-inner{
     color: #fff;
@@ -438,10 +326,6 @@ global css end
 .pricing-section .title .title-b{
     padding: 20px 0px 26px;
 }
-.pricing-section:hover .line::before,
-.pricing-section:hover .line::after{
-    width: 3%;
-}
 .pricing-section .price-box{
     text-align: center;
     border: 1px solid #e0e0e0;
@@ -555,13 +439,12 @@ global css end
 .contect-section .title h2{
     padding: 20px 0px 34px;
 }
-.contect-section :hover .line::before,
-.contect-section :hover .line::after{
-    width: 3%;
+
+.contect-section .gap-a{
+    padding-bottom: 450px;
 }
 .contect-section .icon-box{
     text-align: center;
-    padding-bottom: 470px;
 }
 .contect-section .icon-box img{
     margin-bottom: 40px;
@@ -573,53 +456,49 @@ global css end
 .contect-section .icon-box .address{
     padding: 0px 142px;
 }
-.contect-section .bg{
+.contect-section .from-box{
     background: #15141a;
-    width: 960px;
-    padding: 100px 2px 50px;
-    margin-bottom: 20px;
+    padding: 8% 6% 3%;
     position: absolute;
-    bottom: -102px;
-    left: 190px;
+    bottom: -10%;
+    left: 40%;
+    transform: translateX(-36%);
 }
-.contect-section .bg .form{
-    width: 784px;
-    margin: auto;
-    text-align: end;
+/* .contect-section .from-box form{
+    background: transparent;
+    border: 1px solid #444348;
+    box-shadow: none;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+} */
+.contect-section .from-box form input{
+    padding: 10px 120px 10px 10px;
+    margin-bottom: 14px;
+    background: transparent;
+    border: 1px solid #444348;
+    box-shadow: none;
+    color: #fff;
+    text-transform: capitalize;
+
 }
-.contect-section .form .form-a{
-    display: inline-table;
+.contect-section .from-box form input:focus{
+    outline: none;
 }
-.contect-section .form .form-a input{
-    display: block;
-    padding: 14px 180px 14px 12px;
-    margin-bottom: 10px;
-    margin-right: 20px;
+.contect-section .from-box form .msg{
+    padding: 10px 120px 130px 10px;
 }
-.contect-section .form .form-a .message{
-    padding: 14px 180px 146px 20px;
-    margin: 0px;
-}
-.contect-section .form .btn-primary{
+.contect-section .from-box form .btn-primary{
+    text-align: center !important;
+    padding: 16px 40px;
     background: #008ed6;
-    border: 1px solid #008ed6;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 18px 40px;
-    margin-top: 12px;
-}
-.contect-section .map{
-    background: url(../img/map-a.png) center center no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 420px;
+    border: none;
+    margin-top: 16px;
 }
 .footer{
     text-align: center;
     background: #15141a;
     padding: 20px 0px;
+    margin-top: -8px;
 }
 .footer .icon{}
 .footer .icon ul{}
