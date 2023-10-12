@@ -18,6 +18,7 @@
   <!-- custom css -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -35,7 +36,9 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-i">
+              <i class="fa-solid fa-bars"></i>
+            </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -72,6 +75,11 @@
 
       <!-- banner section code start -->
       <div class="row">
+        <div class="col-lg-6 banner-img">
+          <div class="bannerimg">
+            <img src="img/phone-b.png" alt="">
+          </div>
+        </div>
         <div class="col-lg-6">
           <div class="content">
             <span class="title-h">introducing lucid theme</span>
@@ -84,11 +92,6 @@
               <a href="#" class="btn btn-primary">download now</a>
               <a href="#" class="btn btn-info">view features</a>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="bannerimg">
-            <img src="" alt="">
           </div>
         </div>
       </div>
@@ -110,29 +113,29 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3">
+      <div class="row overvier">
+        <div class="col-lg-3 side-bar">
           <div class="box-inner">
             <img src="img/overview1.png" alt="loading">
             <h2>Responsive</h2>
             <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 side-bar">
           <div class="box-inner">
             <img src="img/overview2.png" alt="loading">
             <h2>Customizable</h2>
             <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 side-bar">
           <div class="box-inner">
             <img src="img/overview3.png" alt="loading">
             <h2>Lovely design</h2>
             <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 side-bar">
           <div class="box-inner">
             <img src="img/overview4.png" alt="loading">
             <h2>Mobile Friendly</h2>
@@ -231,7 +234,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 hide">
           <div class="plan-inner">
             <h5>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're
               going to move is quite dictated by your shoes.</h5>
@@ -291,9 +294,9 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row bottom">
         <!-- $0 -->
-        <div class="col-lg-3">
+        <div class="col-lg-3 side-bar">
           <div class="price-box">
             <div class="p-header">
               <h3>Free</h3>
@@ -310,7 +313,7 @@
           </div>
         </div>
         <!-- $25 -->
-        <div class="col-lg-3">
+        <div class="col-lg-3 side-bar">
           <div class="price-box">
             <div class="p-header">
               <h3>Personal</h3>
@@ -327,7 +330,7 @@
           </div>
         </div>
         <!-- $50 -->
-        <div class="col-lg-3">
+        <div class="col-lg-3 side-bar">
           <div class="price-box">
             <div class="p-header">
               <h3>Business</h3>
@@ -344,7 +347,7 @@
           </div>
         </div>
         <!-- $99 -->
-        <div class="col-lg-3">
+        <div class="col-lg-3 side-bar">
           <div class="price-box">
             <div class="p-header">
               <h3>Ultimate</h3>
@@ -378,14 +381,14 @@
        </div>
      </div>
      <div class="row gap-a" style="align-items: baseline;">
-       <div class="col-lg-4">
+       <div class="col-lg-4 bottom">
          <div class="icon-box">
            <img src="img/contect-a.png" alt="">
            <p>Phone: (415) 124-5678</p>
            <p>Fax: (412) 123-8290</p>
          </div>
        </div>
-       <div class="col-lg-4">
+       <div class="col-lg-4 bottom">
          <div class="icon-box">
            <img src="img/contect-b.png" alt="">
            <p class="address">1001 Brickell Bay Dr.
@@ -393,7 +396,7 @@
              Miami, FL 33131</p>
          </div>
        </div>
-       <div class="col-lg-4">
+       <div class="col-lg-4 bottom">
          <div class="icon-box">
            <img src="img/contect-c.png" alt="">
            <p>support@yourname.com</p>
@@ -409,7 +412,7 @@
             <input type="text" placeholder="SUBJECT *">
            </div>
            <div class="col-lg-6" style="text-align: end;">
-           <textarea placeholder="MESSAGE *" class="msg"></textarea>
+            <textarea placeholder="MESSAGE *" class="msg"></textarea>
             <input type="submit" value="SEND MESSAGE" class="btn btn-primary">
            </div>
          </div>
