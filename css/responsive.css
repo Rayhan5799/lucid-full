@@ -1,0 +1,260 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .header-section{
+    background: url(../img/banner.png) center bottom no-repeat;
+    background-size: cover;
+    padding: 15px 0px;
+    width: 100%;
+}
+.header-section .banner-img{
+  display: block !important;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+/******************
+global css start
+******************/
+.title-h{
+  color: #008ed6;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+.title-b{
+  color: #1a1a1a;
+  font-size: 36px;
+  font-weight: 600;
+}
+.title-f{
+  color: #999999;
+  font-size: 18px;
+}
+/******************
+global css end
+******************/
+
+  .header-section{
+    background: url(../img/banner.png) center bottom no-repeat;
+    background-size: cover;
+    padding: 15px 0px;
+    width: 100%;
+}
+.navbar-toggler{
+  color: #fff;
+    border: none;
+}
+.header-section .nav-item {
+  margin-bottom: -20px;
+}
+.header-section .banner-img{
+  display: block !important;
+  width: 75%;
+  margin: 40px auto 30px;
+}
+
+.header-section .banner-img img{
+  width: 100%;
+}
+.header-section .content{
+  padding: 0;
+  text-align: center;
+}
+.header-section .content h1{
+  font-weight: 400;
+  font-size: 41px;
+  margin: 30px auto 20px;
+}
+.header-section .content p {
+  padding: 0px 50px;
+  font-size: 20px;
+}
+.header-section .content .join-btn .btn-primary{
+  padding: 12px 20px;
+}
+.header-section .content .join-btn .btn-info{
+  padding: 12px 20px;
+}
+.header-section .content .join-btn{
+  margin: 40px auto 50px;
+}
+.overvier{
+  padding: 40px 0px 10px;
+}
+.overvier-section{
+  padding: 20px 0px 30px;
+}
+.overvier-section .title h3 {
+  margin: 20px 0px 26px;
+}
+.overvier-section .box-inner h2 {
+  font-size: 26px;
+  margin: 20px 0px 20px;
+}
+.overvier-section .box-inner {
+  margin: 0px 0px 30px;
+}
+.overvier-section .box-inner p {
+  padding: 0px 50px;
+}
+.device-section {
+  padding: 66px 0px 0px;
+}
+.device-section .d-img img {
+  width: 70%;
+}
+.customize-secton .title {
+  padding: 30px 0px 0px;
+}
+.customize-secton .phone2{
+  margin: 26px 0px;
+  width: 85%;
+}
+.review-section .title {
+  padding: 20px 0px 0px;
+}
+.review-section .plan-inner {
+  padding-top: 30px;
+}
+.review-section .plan-inner h5 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 0px;
+  line-height: 30px;
+}
+.review-section .hide{
+  display: none;
+}
+.review-section .drop {
+  padding: 40px 0px 10px;
+}
+.like-section h2 {
+  font-size: 26px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.like-section .join-btn {
+  text-align: center;
+}
+.like-section .join-btn .btn-primary{
+  padding: 12px 20px;
+}
+.like-section .join-btn .btn-info{
+  padding: 12px 20px;
+}
+.pricing-section .side-bar{
+  width: 50%;
+}
+.pricing-section .bottom{
+  margin-top: 30px;
+}
+.pricing-section .price-box {
+  margin: 0px 0px 30px;
+}
+.pricing-section .price-box .p-header h3 {
+  font-size: 22px;
+  padding: 16px 0px;
+}
+.pricing-section .price-box .p-body h2 {
+  font-size: 46px;
+  padding: 16px 0px 0px;
+}
+.pricing-section .price-box .p-body h2 .free {
+  font-size: 24px;
+  top: 24px;
+  left: 58px;
+}
+.pricing-section .price-box .p-body h2 span {
+  font-size: 24px;
+  top: 24px;
+  left: 48px;
+}
+.pricing-section .price-box .p-body p {
+  font-size: 16px;
+  margin: -10px 0px 16px;
+}
+.pricing-section .price-box .p-footer p {
+  padding: 16px 0px 10px;
+  font-size: 18px;
+}
+.pricing-section .price-box .p-footer .btn-primary {
+  padding: 12px 16px;
+}
+.contect-section .bottom {
+  margin-bottom: 20px;
+}
+.contect-section .icon-box img {
+  margin-bottom: 32px;
+}
+.contect-section .icon-box .address {
+  padding: 0px 74px;
+}
+.contect-section .gap-a {
+  padding-bottom: 420px;
+}
+.contect-section .from-box {
+  left: 28%;
+  transform: translateX(-21%);
+}
+.contect-section .from-box form .btn-primary {
+  padding: 10px 0px;
+  width: 50%;
+}
+}
