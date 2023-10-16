@@ -35,7 +35,9 @@ li{
     color: #999999;
     font-size: 18px;
 }
-
+p{
+    color: #999999;
+}
 /******************
 global css end
 ******************/
@@ -105,6 +107,10 @@ global css end
     border: 1px solid #008ed6;
     transition: .5s;
 }
+.banner-img{
+    display: none;
+}
+.banner-img img{}
 /* header css end */
 
 
@@ -505,8 +511,6 @@ global css end
 .contect-section .from-box form .btn-primary:hover{
     background: #0770a5;
 }
-
-/* footer section start */
 .footer{
     text-align: center;
     background: #15141a;

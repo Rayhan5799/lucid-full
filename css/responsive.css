@@ -80,7 +80,7 @@ global css start
 }
 .title-b{
   color: #1a1a1a;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 600;
 }
 .title-f{
@@ -96,6 +96,9 @@ global css end
     background-size: cover;
     padding: 15px 0px;
     width: 100%;
+}
+.header-section .navbar-toggler{
+  box-shadow: none;
 }
 .navbar-toggler{
   color: #fff;
@@ -117,14 +120,15 @@ global css end
   padding: 0;
   text-align: center;
 }
-.header-section .content h1{
+.header-section .content h1 {
+  padding: 0px 40px;
   font-weight: 400;
-  font-size: 41px;
+  font-size: 36px;
   margin: 30px auto 20px;
 }
 .header-section .content p {
-  padding: 0px 50px;
-  font-size: 20px;
+  padding: 0px 36px;
+  font-size: 16px;
 }
 .header-section .content .join-btn .btn-primary{
   padding: 12px 20px;
@@ -139,7 +143,7 @@ global css end
   padding: 40px 0px 10px;
 }
 .overvier-section{
-  padding: 20px 0px 30px;
+  padding: 20px 15px 30px;
 }
 .overvier-section .title h3 {
   margin: 20px 0px 26px;
@@ -149,16 +153,19 @@ global css end
   margin: 20px 0px 20px;
 }
 .overvier-section .box-inner {
-  margin: 0px 0px 30px;
+  margin: 0px 0px 50px;
 }
 .overvier-section .box-inner p {
   padding: 0px 50px;
 }
 .device-section {
-  padding: 66px 0px 0px;
+  padding: 66px 10px 30px;
 }
 .device-section .d-img img {
   width: 70%;
+}
+.customize-secton {
+  padding: 25px 10px;
 }
 .customize-secton .title {
   padding: 30px 0px 0px;
@@ -166,6 +173,9 @@ global css end
 .customize-secton .phone2{
   margin: 26px 0px;
   width: 85%;
+}
+.review-section {
+  padding: 25px 15px 15px;
 }
 .review-section .title {
   padding: 20px 0px 0px;
@@ -176,14 +186,23 @@ global css end
 .review-section .plan-inner h5 {
   font-size: 20px;
   font-weight: 400;
-  padding-right: 0px;
+  padding: 18px;
   line-height: 30px;
+  text-align: center;
+}
+.review-section .plan-inner .content {
+  width: 73%;
+  margin: auto;
 }
 .review-section .hide{
   display: none;
 }
 .review-section .drop {
   padding: 40px 0px 10px;
+}
+.like-section {
+  padding: 50px 10px 50px;
+  text-align: center;
 }
 .like-section h2 {
   font-size: 26px;
@@ -199,8 +218,9 @@ global css end
 .like-section .join-btn .btn-info{
   padding: 12px 20px;
 }
-.pricing-section .side-bar{
-  width: 50%;
+.pricing-section .side-bar {
+  width: 80%;
+  margin: auto;
 }
 .pricing-section .bottom{
   margin-top: 30px;
@@ -219,19 +239,19 @@ global css end
 .pricing-section .price-box .p-body h2 .free {
   font-size: 24px;
   top: 24px;
-  left: 58px;
+  left: 116px;
 }
 .pricing-section .price-box .p-body h2 span {
   font-size: 24px;
   top: 24px;
-  left: 48px;
+  left: 106px;
 }
 .pricing-section .price-box .p-body p {
   font-size: 16px;
-  margin: -10px 0px 16px;
+  margin: 10px 0px 16px;
 }
 .pricing-section .price-box .p-footer p {
-  padding: 16px 0px 10px;
+  padding: 40px 40px 20px;
   font-size: 18px;
 }
 .pricing-section .price-box .p-footer .btn-primary {
